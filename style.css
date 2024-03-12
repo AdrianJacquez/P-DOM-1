@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: beige;
+}
+/*diseño de el tutulo*/
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60%;
+}
+.titulo {
+  display: flex;
+  align-items: center;
+}
+
+.titulo svg {
+  width: 40px;
+  height: 30px;
+}
+
+/*Diseño de la paleta input*/
+.contenedor #inputPaleta {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+/*Diseño del boton visualizar*/
+.contenedor #btnView {
+  margin: 40px;
+  width: 300px;
+  height: 60px;
+  background-color: rgb(47, 105, 221);
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5rem;
+  border: 0;
+  cursor: pointer;
+}
+
+/*input que contiene el valor del color y el que lo muestra*/
+.contenedor #valorColor {
+  width: 300px;
+  height: 40px;
+  background-color: beige;
+  border: 0;
+  color: black;
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.contenedor #colorView {
+  margin: 20px;
+  width: 300px;
+  height: 150px;
+  border-radius: 10px;
+  border: 0;
+}
