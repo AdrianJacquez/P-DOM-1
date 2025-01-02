@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap");
+
+body {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(221, 240, 252);
+  font-family: "Raleway", serif;
+}
+/*Contenedor general*/
+.containerFull {
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Contenedor que encierrra a juego*/
+.contGame {
+  width: 80%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: rgb(90, 172, 248);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.267);
+}
+/*titulo*/
+.title {
+  font-size: 1.8rem;
+}
+/*Contenedor del numero que sera adivinado*/
+.contNumber {
+  position: relative;
+  overflow: hidden;
+  width: 120px;
+  display: flex;
+  justify-content: center;
+}
+.randomNumber {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  padding: 0;
+  margin: 20px 0;
+}
+/*Capa que esconde al numero hasta ser adivinado o acabasrce los intentos*/
+#capa {
+  position: absolute;
+  left: 2;
+  bottom: 20px;
+  width: 105px;
+  height: 105px;
+
+  border-radius: 100%;
+  background-color: black;
+  transition: 0.4s;
+}
+
+/*Mensaje que le dice al usuario si el numeor que ingreso el mayor o menor al que debe ser adivinado*/
+.valueMessage {
+  width: 100%;
+  background: none;
+  border: none;
+  text-align: center;
+  font-family: "Raleway", serif;
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+/*Input del numero que ingresara el usuario*/
+.userNumber {
+  width: 200px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  margin: 20px 0;
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 10px 10px 10px black;
+}
+/*Contenedor de los botones para repetir y ver las anterirores*/
+.contButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+/*Boton de reiniciar*/
+#reloadB {
+  background: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin: 20px 0;
+}
+/*Boton de ver historial*/
+#listB {
+  background: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin: 20px 0;
+}
+/*Boton de start*/
+#startB {
+  background: none;
+  border: none;
+  width: 50px;
+  height: 50px;
+  margin: 20px 0;
+}

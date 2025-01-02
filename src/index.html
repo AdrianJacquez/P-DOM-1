@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jugando Con DOM</title>
+  </head>
+  <body>
+    <div class="containerFull">
+      <div class="contGame">
+        <h1 class="title">Adivina el numero que esta detras</h1>
+        <div class="contNumber">
+          <input class="randomNumber" type="Text" readonly />
+          <span id="capa"></span>
+        </div>
+        <input class="valueMessage" type="text" readonly />
+        <input class="userNumber" type="number" />
+        <div class="contButtons">
+          <button id="reloadB"><i class="fa-3x fa-solid fa-repeat"></i></button>
+          <button id="startB"><i class="fa-solid fa-play fa-3x"></i></button>
+          <button id="listB">
+            <i class="fa-solid fa-bars-staggered fa-3x"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="counter.js"></script>
+  </body>
+</html>
